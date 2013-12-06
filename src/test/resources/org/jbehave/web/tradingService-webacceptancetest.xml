@@ -14,13 +14,13 @@
 		<property name="webDriver" ref="firefoxDriver"></property>
 	</bean>
 	
-	<bean id="insertStockPage" class="org.jbehave.web.InsertStockPage">
-		<qualifier value="insertStockPage"></qualifier>
-		<property name="stockUrl" value="http://localhost:8080/JBehaveWeb/"></property>
+	<bean id="submitFeedbackPage" class="org.jbehave.web.SubmitFeedbackPage">
+		<qualifier value="submitFeedbackPage"></qualifier>
+		<property name="stockUrl" value="http://localhost:8080"></property>
 	</bean>
 	
-	<bean id="showStatusStockPage" class="org.jbehave.web.ShowStockStatusPage">
-		<qualifier value="showStatusStockPage"></qualifier>
+	<bean id="showFeedbackPage" class="org.jbehave.web.ShowFeedbackPage">
+		<qualifier value="showFeedbackPage"></qualifier>
 	</bean>
 	
 </beans>

@@ -34,6 +34,7 @@
 				<value>TXT</value>
 				<value>HTML</value>
 				<value>XML</value>
+                <value>STATS</value>
 			</list>
 		</property>
 	</bean>

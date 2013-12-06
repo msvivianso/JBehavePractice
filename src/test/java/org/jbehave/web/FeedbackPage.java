@@ -2,7 +2,7 @@ package org.jbehave.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class SubmitFeedbackPage {
+public class FeedbackPage {
 
 	private static final String GIVER = "giver";
 	private static final String RECEIVER = "receiver";
